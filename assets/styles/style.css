@@ -1,0 +1,208 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+    background: rgb(241, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header, .container .post .post-item, .container .pagination, .container .sidebar .random-img,.container .col, .more{
+    background: white;
+    margin: 10px;
+    border-top: 5px solid rgb(231, 153, 7);
+} 
+
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    margin-left: 15px;
+}
+
+.header .menu{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.header .menu .menu-item{
+    line-height: 5px;
+}
+
+.header .menu .menu-item-bold{
+    font-weight: 800;
+}
+
+.header .menu .menu-item img{
+    width: 7px;
+    margin: 0;
+}
+
+.header .menu .menu-item-light{
+    font-weight: 200;
+    font-size: 0.5em;
+    color: rgb(163, 159, 159);
+}
+
+.container{
+    display: flex;
+}
+
+.container .post img{
+    width: 100%;
+}
+
+.container .post .post-item{
+    padding: 15px;
+}
+
+.container .post .post-info{
+    text-transform: uppercase;
+    color: rgb(185, 180, 180);
+    font-weight: 600;
+}
+
+.container .post .post-content{
+    color: rgb(172, 166, 166);
+    border-top: 1px solid rgb(231, 227, 227);
+    border-bottom: 1px solid rgb(231, 227, 227);
+}
+
+.container .post .post-more{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .post .post-more a{
+    text-decoration: none;
+    color: rgb(204, 201, 201);
+}
+
+.container .post .pagination{
+    margin-top: 15px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.container .post .pagination a{
+    text-decoration: none;
+    color: rgb(204, 201, 201);
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+.container .post .pagination a:hover{
+    border-bottom: 2px solid rgb(163, 156, 156);
+    color: rgb(163, 156, 156);
+}
+
+.sidebar .col{
+    padding: 15px; 
+    margin-bottom: 30px;
+}
+
+.sidebar .col a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar .col p{
+    color: rgb(163, 156, 156);
+    margin: 0;
+}
+
+.sidebar .col .tab{
+    border: 1px solid rgb(207, 204, 204);
+}
+
+.sidebar .col .tab .sub-tab{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+}
+.sidebar .col .tab .sub-tab .unselected-tab{
+    width: 50%;
+    height: 100%;
+}
+.sidebar .col .tab .sub-tab .selected-tab{
+    height: 100%;
+    width: 50%;
+    border-left: 1px solid rgb(207, 204, 204);
+    border-bottom: 1px solid rgb(207, 204, 204);
+    background: rgb(241, 237, 237);
+}
+
+.sidebar .col label{
+    font-weight: 800;
+}
+
+.sidebar .col input{
+    height: 30px;
+    border: 1px solid rgb(207, 204, 204);
+}
+
+.sidebar .col h3{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sidebar .col .sponsor-img{ 
+    margin-top: 20px;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.more {
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.more .col{
+    width: 33%;
+    margin: 25px;
+}
+
+.more .col h3{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.more .col p{
+    color: rgb(133, 126, 126);
+}
+
+.more .col .tag-item {
+    color: rgb(133, 126, 126);
+    padding: 5px;
+    display: inline-block;
+    margin: 3px;
+    background: rgb(243, 236, 236);
+    border: 1px solid rgb(207, 204, 204);
+    border-left: 3px solid rgb(231, 153, 7);
+}
+
+.footer{
+    font-size: 0.75em;
+    background: white;
+    margin: 0 10px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(172, 163, 163);
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(172, 163, 163);
+}
